@@ -1,0 +1,57 @@
+{
+  "uid" : "104f21d99bb5a542",
+  "name" : "createUser()",
+  "fullName" : "ApiTemplates.PostRequest.RegresInCreateTest.createUser",
+  "historyId" : "712b2701058a2b8b65e01133b40ab75a",
+  "time" : {
+    "start" : 1674134419701,
+    "stop" : 1674134419982,
+    "duration" : 281
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Jelehovschis-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "15131@Jelehovschis-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ApiTemplates.PostRequest.RegresInCreateTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ApiTemplates.PostRequest.RegresInCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUser"
+  }, {
+    "name" : "suite",
+    "value" : "ApiTemplates.PostRequest.RegresInCreateTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "104f21d99bb5a542.json",
+  "parameterValues" : [ ]
+}

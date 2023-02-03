@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Jelehovschis-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "15131@Jelehovschis-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "getUser()",
+        "uid" : "2c807e133c1cde89",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134414850,
+          "stop" : 1674134415075,
+          "duration" : 225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getAllUsers()",
+        "uid" : "b16462c831edb789",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134413506,
+          "stop" : 1674134414829,
+          "duration" : 1323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteUser()",
+        "uid" : "66caee9ed7c0d130",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134423866,
+          "stop" : 1674134424156,
+          "duration" : 290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doPutRequest()",
+        "uid" : "5aa0071e58bdc33b",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134416608,
+          "stop" : 1674134418969,
+          "duration" : 2361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getGoRestUsers()",
+        "uid" : "1cc692de12864992",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "failed",
+        "time" : {
+          "start" : 1674134415607,
+          "stop" : 1674134416602,
+          "duration" : 995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doPostRequest()",
+        "uid" : "7d515afa48a0672",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134419984,
+          "stop" : 1674134423861,
+          "duration" : 3877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getUSDExchange()",
+        "uid" : "deb74ee8da3dc4b",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134415380,
+          "stop" : 1674134415604,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getEURExchange()",
+        "uid" : "4571f363aae052c4",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134415082,
+          "stop" : 1674134415378,
+          "duration" : 296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "editUser()",
+        "uid" : "f40669c3d48a9362",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134418974,
+          "stop" : 1674134419398,
+          "duration" : 424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createUser()",
+        "uid" : "104f21d99bb5a542",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134419701,
+          "stop" : 1674134419982,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "patchUser()",
+        "uid" : "48edf0b7a0507c79",
+        "parentUid" : "fe1cf6785b846b822d46393c49635191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674134419401,
+          "stop" : 1674134419700,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe1cf6785b846b822d46393c49635191"
+    } ],
+    "uid" : "ca08a75e414b83a4557453e51da2e662"
+  } ]
+}

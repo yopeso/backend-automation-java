@@ -1,0 +1,70 @@
+{
+  "uid" : "deb74ee8da3dc4b",
+  "name" : "getUSDExchange()",
+  "fullName" : "ApiTemplates.GetRequest.ExchangeTest.getUSDExchange",
+  "historyId" : "7a2014c39215533c26e37d9559f8f79e",
+  "time" : {
+    "start" : 1674134415380,
+    "stop" : 1674134415604,
+    "duration" : 224
+  },
+  "description" : "Get USD Exchange",
+  "descriptionHtml" : "<p>Get USD Exchange</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Backend API templates"
+  }, {
+    "name" : "feature",
+    "value" : "Get HTTP method"
+  }, {
+    "name" : "story",
+    "value" : "Get Request"
+  }, {
+    "name" : "host",
+    "value" : "Jelehovschis-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "15131@Jelehovschis-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ApiTemplates.GetRequest.ExchangeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ApiTemplates.GetRequest.ExchangeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUSDExchange"
+  }, {
+    "name" : "suite",
+    "value" : "ApiTemplates.GetRequest.ExchangeTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deb74ee8da3dc4b.json",
+  "parameterValues" : [ ]
+}
