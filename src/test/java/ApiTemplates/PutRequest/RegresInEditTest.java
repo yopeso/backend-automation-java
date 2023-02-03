@@ -5,7 +5,7 @@ import ApiTemplates.PutRequest.model.RegresInEditModel;
 import api.service.Service;
 import io.restassured.response.Response;
 import org.assertj.core.api.Assertions;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import routes.RegresInRoutes;
 
 import java.text.SimpleDateFormat;
@@ -14,10 +14,11 @@ import java.util.HashMap;
 
 
 public class RegresInEditTest extends BaseTest {
-    @Test(description = "RegresIn Edit User")
+    @Test
     public void editUser() throws Exception {
-        Response response=Service.init().put(RegresInRoutes.REGRESS_IN_API_USER, new HashMap<>()).getResponse();
-        RegresInEditModel regresInEditModel=Service.responseToPojo(RegresInEditModel.class,response);
+        Service service=Service.init();
+        Response response=service.put(RegresInRoutes.REGRESS_IN_API_USER, new HashMap<>()).getResponse();
+        RegresInEditModel regresInEditModel=service.responseToPojo(RegresInEditModel.class);
 
         Assertions.assertThat(response.getStatusCode())
                 .as("Response status code for request is 200,and we have %d ", response.getStatusCode())

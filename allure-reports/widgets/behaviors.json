@@ -1,0 +1,15 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "038946a04e121350bbbb72fc21f31e4c",
+    "name" : "Backend API templates",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

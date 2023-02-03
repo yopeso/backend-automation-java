@@ -5,7 +5,7 @@ import ApiTemplates.PostRequest.model.RegresInCreateModel;
 import api.service.Service;
 import io.restassured.response.Response;
 import org.assertj.core.api.Assertions;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import routes.RegresInRoutes;
 
 import java.text.SimpleDateFormat;
@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 
 public class RegresInCreateTest extends BaseTest {
-    @Test(description = "RegresIn Create User")
+    @Test
     public void createUser() throws Exception {
         Service service=Service.init().post(RegresInRoutes.REGRESS_IN_API_ALL_USERS, new HashMap<>());
         RegresInCreateModel regresInUser=service.responseToPojo(RegresInCreateModel.class);

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "7d515afa48a0672",
+  "name" : "doPostRequest()",
+  "time" : {
+    "start" : 1674134419984,
+    "stop" : 1674134423861,
+    "duration" : 3877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4571f363aae052c4",
+  "name" : "getEURExchange()",
+  "time" : {
+    "start" : 1674134415082,
+    "stop" : 1674134415378,
+    "duration" : 296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f40669c3d48a9362",
+  "name" : "editUser()",
+  "time" : {
+    "start" : 1674134418974,
+    "stop" : 1674134419398,
+    "duration" : 424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48edf0b7a0507c79",
+  "name" : "patchUser()",
+  "time" : {
+    "start" : 1674134419401,
+    "stop" : 1674134419700,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b16462c831edb789",
+  "name" : "getAllUsers()",
+  "time" : {
+    "start" : 1674134413506,
+    "stop" : 1674134414829,
+    "duration" : 1323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aa0071e58bdc33b",
+  "name" : "doPutRequest()",
+  "time" : {
+    "start" : 1674134416608,
+    "stop" : 1674134418969,
+    "duration" : 2361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c807e133c1cde89",
+  "name" : "getUser()",
+  "time" : {
+    "start" : 1674134414850,
+    "stop" : 1674134415075,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "104f21d99bb5a542",
+  "name" : "createUser()",
+  "time" : {
+    "start" : 1674134419701,
+    "stop" : 1674134419982,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66caee9ed7c0d130",
+  "name" : "deleteUser()",
+  "time" : {
+    "start" : 1674134423866,
+    "stop" : 1674134424156,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cc692de12864992",
+  "name" : "getGoRestUsers()",
+  "time" : {
+    "start" : 1674134415607,
+    "stop" : 1674134416602,
+    "duration" : 995
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb74ee8da3dc4b",
+  "name" : "getUSDExchange()",
+  "time" : {
+    "start" : 1674134415380,
+    "stop" : 1674134415604,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

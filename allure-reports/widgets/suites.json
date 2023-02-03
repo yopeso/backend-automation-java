@@ -1,0 +1,103 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "7c6f574f3c19c01b5efab79e369f7487",
+    "name" : "ApiTemplates.GetRequest.GoRestUserTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ac8954b0da722c184ac6d176794e0f64",
+    "name" : "ApiTemplates.GetRequest.RegresInUsersTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "21cb583cafcc7d1c16322639d20cfaa1",
+    "name" : "ApiTemplates.GetRequest.ExchangeTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "10310e560cac7978fc36d4e3f847328a",
+    "name" : "ApiTemplates.PutRequest.HttpBinPutTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "35b158a34c3f62b7a42843eb7156c371",
+    "name" : "ApiTemplates.PutRequest.RegresInEditTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2f12ef0725da8ad918fb4da20d8ec159",
+    "name" : "ApiTemplates.PatchRequest.RegresInPatchTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c4fd875da641c0c505f45ed78a8fc8e8",
+    "name" : "ApiTemplates.PostRequest.RegresInCreateTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "24e7fc282675193260f71b64c3177b8e",
+    "name" : "ApiTemplates.PostRequest.HttpBinPostTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "748140a8fddf39e9898c3fe40457ddae",
+    "name" : "ApiTemplates.DeleteRequest.RegresInDeleteTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,184 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ApiTemplates.GetRequest.RegresInUsersTest",
+    "children" : [ {
+      "name" : "getAllUsers()",
+      "uid" : "b16462c831edb789",
+      "parentUid" : "ac8954b0da722c184ac6d176794e0f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134413506,
+        "stop" : 1674134414829,
+        "duration" : 1323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getUser()",
+      "uid" : "2c807e133c1cde89",
+      "parentUid" : "ac8954b0da722c184ac6d176794e0f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134414850,
+        "stop" : 1674134415075,
+        "duration" : 225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ac8954b0da722c184ac6d176794e0f64"
+  }, {
+    "name" : "ApiTemplates.GetRequest.ExchangeTest",
+    "children" : [ {
+      "name" : "getEURExchange()",
+      "uid" : "4571f363aae052c4",
+      "parentUid" : "21cb583cafcc7d1c16322639d20cfaa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134415082,
+        "stop" : 1674134415378,
+        "duration" : 296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getUSDExchange()",
+      "uid" : "deb74ee8da3dc4b",
+      "parentUid" : "21cb583cafcc7d1c16322639d20cfaa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134415380,
+        "stop" : 1674134415604,
+        "duration" : 224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "21cb583cafcc7d1c16322639d20cfaa1"
+  }, {
+    "name" : "ApiTemplates.GetRequest.GoRestUserTest",
+    "children" : [ {
+      "name" : "getGoRestUsers()",
+      "uid" : "1cc692de12864992",
+      "parentUid" : "7c6f574f3c19c01b5efab79e369f7487",
+      "status" : "failed",
+      "time" : {
+        "start" : 1674134415607,
+        "stop" : 1674134416602,
+        "duration" : 995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7c6f574f3c19c01b5efab79e369f7487"
+  }, {
+    "name" : "ApiTemplates.PutRequest.HttpBinPutTest",
+    "children" : [ {
+      "name" : "doPutRequest()",
+      "uid" : "5aa0071e58bdc33b",
+      "parentUid" : "10310e560cac7978fc36d4e3f847328a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134416608,
+        "stop" : 1674134418969,
+        "duration" : 2361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "10310e560cac7978fc36d4e3f847328a"
+  }, {
+    "name" : "ApiTemplates.PutRequest.RegresInEditTest",
+    "children" : [ {
+      "name" : "editUser()",
+      "uid" : "f40669c3d48a9362",
+      "parentUid" : "35b158a34c3f62b7a42843eb7156c371",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134418974,
+        "stop" : 1674134419398,
+        "duration" : 424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "35b158a34c3f62b7a42843eb7156c371"
+  }, {
+    "name" : "ApiTemplates.PatchRequest.RegresInPatchTest",
+    "children" : [ {
+      "name" : "patchUser()",
+      "uid" : "48edf0b7a0507c79",
+      "parentUid" : "2f12ef0725da8ad918fb4da20d8ec159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134419401,
+        "stop" : 1674134419700,
+        "duration" : 299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2f12ef0725da8ad918fb4da20d8ec159"
+  }, {
+    "name" : "ApiTemplates.PostRequest.RegresInCreateTest",
+    "children" : [ {
+      "name" : "createUser()",
+      "uid" : "104f21d99bb5a542",
+      "parentUid" : "c4fd875da641c0c505f45ed78a8fc8e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134419701,
+        "stop" : 1674134419982,
+        "duration" : 281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c4fd875da641c0c505f45ed78a8fc8e8"
+  }, {
+    "name" : "ApiTemplates.PostRequest.HttpBinPostTest",
+    "children" : [ {
+      "name" : "doPostRequest()",
+      "uid" : "7d515afa48a0672",
+      "parentUid" : "24e7fc282675193260f71b64c3177b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134419984,
+        "stop" : 1674134423861,
+        "duration" : 3877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "24e7fc282675193260f71b64c3177b8e"
+  }, {
+    "name" : "ApiTemplates.DeleteRequest.RegresInDeleteTest",
+    "children" : [ {
+      "name" : "deleteUser()",
+      "uid" : "66caee9ed7c0d130",
+      "parentUid" : "748140a8fddf39e9898c3fe40457ddae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674134423866,
+        "stop" : 1674134424156,
+        "duration" : 290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "748140a8fddf39e9898c3fe40457ddae"
+  } ]
+}

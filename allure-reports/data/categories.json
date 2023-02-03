@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "[First user id is 5434] \nexpected: 3323\n but was: 3316",
+      "children" : [ {
+        "name" : "getGoRestUsers()",
+        "uid" : "1cc692de12864992",
+        "parentUid" : "1535c5ec3ad051f34a21290e9b050aa7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1674134415607,
+          "stop" : 1674134416602,
+          "duration" : 995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1535c5ec3ad051f34a21290e9b050aa7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

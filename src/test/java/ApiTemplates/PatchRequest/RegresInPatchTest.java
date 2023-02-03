@@ -5,7 +5,7 @@ import ApiTemplates.BaseTest;
 import ApiTemplates.PatchRequest.model.RegresInPatchModel;
 import api.service.Service;
 import org.assertj.core.api.Assertions;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import routes.RegresInRoutes;
 
 import java.text.SimpleDateFormat;
@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 
 public class RegresInPatchTest  extends BaseTest {
-    @Test(description = "RegresIn Patch User")
+    @Test
     public void patchUser() throws Exception {
         RegresInPatchModel regresInUser=Service.init().patch(RegresInRoutes.REGRESS_IN_API_USER, new HashMap<>()).responseToPojo(RegresInPatchModel.class);
 
